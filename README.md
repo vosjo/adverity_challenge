@@ -36,6 +36,13 @@ If no values are provided, default values of WINDOW=5 and DEV=1.5 are used.
 Example use:
 
     python outlier_detection.py 5 1.5
+    
+Will create the following plots:
+
+![CTR with outliers marked](https://raw.githubusercontent.com/vosjo/adverity_challenge/master/figures/raw_ctr.png)
+
+![CTR with outliers marked](https://raw.githubusercontent.com/vosjo/adverity_challenge/master/figures/ctr_with_outliers.png)
+
 
 ### Jupiter notebook
 There is also a jupyter notebook included that does exacly the same as the two python scripts. For this the 
